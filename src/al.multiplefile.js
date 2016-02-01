@@ -98,6 +98,9 @@ if (!Array.prototype.nativeLength) {
 							case 'files':
 								return plugin.fileObjects;
 							break;
+							case 'filescount':
+								return plugin.fileObjects.nativeLength();
+							break;
 							case 'destroy':
 								enableFileDlg();
 								$(plugin.fileVirtual).remove();
