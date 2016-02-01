@@ -22,17 +22,6 @@ if (!Array.prototype.nativeLength) {
   };
 }
 
-if (!Array.prototype.nativate) {
-  Array.prototype.nativate = function() {
-    var res = new Array();
-	for(b in this)
-		if((typeof this[b] != 'undefined') && (this[b] != null))
-			res.push(this[b]);
-		
-	return b;
-  };
-}
-
 (function($){
 
 	$.multipleFile = function(element, options){
