@@ -1,5 +1,5 @@
 # AL-MultipleFile-JS
-Allows to call html input file dialogue with any html element and add files to form in native JavaScript
+Allows to call html input file dialogue from any html element and dynamically add files to html form. Written in native JavaScript+JQuery with no Flash or other third-party libraries.
 
 ## Requirements
 Requires **jQuery** library
